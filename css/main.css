@@ -1,0 +1,25 @@
+
+
+body{
+	background-image:url('https://i.imgur.com/oM3cFLO.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+ #wrapper, .jumbotron{
+	z-index:-1 !important;
+	background:#db0;
+	background-size:100%;
+	opacity:0.28;
+} 
+
+#pic{
+	z-index:10 !important;
+	border-radius:50%;
+	height:10em;width:13em;
+}
+
+p{	
+	text-shadow:02px 2px 5px #acf;font-size:5em;z-index:100;
+}
+
+html{font-size:10px !important;}
