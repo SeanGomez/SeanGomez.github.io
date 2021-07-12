@@ -1,17 +1,47 @@
-#title{
+#wrapper{
+	width:50em;
+	margin:0 auto;
+	text-align:center;
+	background:#000;
+	opacity:0.5;
+	z-index:10
+	color:#fff
+}
+
+#Paragraph{
+font-family:'datalegreya';
+padding-bottom:1em;
+margin:0 auto;
+color:#aaa;
+font-size:1.35em;
+border:solid #aaa 1px;
+font-weight:600;
+letter-spacing:0.1em;
+
+}
+#Paragraph i{
 	font-family:'datalegreya';
-	color:#fff;
-	letter-spacing:1em;
-	font-style:normal;
+	font-size:1.25em;
+}
+#secondParagraph{
+z-index:-2 !important;
+position:absolute;
+background:black;
+border:solid #666 1.1px;
+}
+
+
+#title{
 	font-weight:100;
+	font-family:'datalegreya';
+	font-style:normal;
+	letter-spacing:0.5em;
 	font-size:3em;
 }
 
-#wrapper{
-	background:#000;
-	opacity:0.5;
-	height:inherit;
-	width:5em;
-	z-index:10;
-	float:right;
+
+@media only screen and (max-width: 600px) {
+	#Paragraph{background:red}
+
 }
+
